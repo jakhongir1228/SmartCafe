@@ -15,4 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "SmartCafe"
 include(":app")
- 
+include(":feature:kittens")
+include(":feature:mvi")
