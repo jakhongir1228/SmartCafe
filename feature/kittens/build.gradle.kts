@@ -1,8 +1,9 @@
+import org.jetbrains.kotlin.js.translate.context.Namer.kotlin
+
 plugins {
     id("com.android.library")
-    id("org.jetbrains.kotlin.android")
-    kotlin("plugin.serialization")
 }
+
 
 android {
     namespace = "uz.smartcafe.feature.kittens"
@@ -12,9 +13,9 @@ android {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
     }
-    kotlinOptions {
-        jvmTarget = "1.8"
-    }
+//    kotlinOptions {
+//        jvmTarget = "1.8"
+//    }
 }
 dependencies {
     implementation("com.badoo.reaktive:reaktive:2.0.1")

@@ -22,4 +22,6 @@ dependencies {
     implementation("com.badoo.reaktive:coroutines-interop:2.0.1")
     implementation("com.badoo.reaktive:rxjava2-interop:2.0.1")
     implementation("com.badoo.reaktive:rxjava3-interop:2.0.1")
+
+    implementation(project(":feature:kittens"))
 }
