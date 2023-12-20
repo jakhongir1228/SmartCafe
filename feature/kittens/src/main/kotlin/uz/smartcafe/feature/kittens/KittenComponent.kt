@@ -1,7 +1,6 @@
 package uz.smartcafe.feature.kittens
 
 import uz.smartcafe.feature.kittens.KittenView.Event
-import uz.smartcafe.feature.kittens.datasource.KittenDataSource
 import uz.smartcafe.feature.kittens.integration.KittenStoreNetwork
 import uz.smartcafe.feature.kittens.integration.KittenStoreParser
 import uz.smartcafe.feature.kittens.integration.toIntent
@@ -11,6 +10,8 @@ import uz.smartcafe.feature.kittens.store.KittenStoreImpl
 import com.badoo.reaktive.disposable.scope.DisposableScope
 import com.badoo.reaktive.disposable.scope.disposableScope
 import com.badoo.reaktive.observable.map
+import uz.smartcafe.feature.kittens.datasource.KittenDataSource
+
 class KittenComponent internal constructor(dataSource: KittenDataSource) {
 
     constructor() : this(KittenDataSource())

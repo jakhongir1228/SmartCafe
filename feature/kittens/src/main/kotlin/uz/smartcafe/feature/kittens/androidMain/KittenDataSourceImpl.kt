@@ -1,4 +1,4 @@
-package uz.smartcafe.feature.kittens.datasource
+package uz.smartcafe.feature.kittens.androidMain
 
 import com.badoo.reaktive.maybe.Maybe
 import com.badoo.reaktive.maybe.maybeFromFunction
@@ -8,6 +8,8 @@ import com.badoo.reaktive.scheduler.ioScheduler
 import java.io.BufferedReader
 import java.net.HttpURLConnection
 import java.net.URL
+import uz.smartcafe.feature.kittens.datasource.KittenDataSource
+import uz.smartcafe.feature.kittens.datasource.makeKittenEndpointUrl
 
 internal class KittenDataSourceImpl : KittenDataSource {
 

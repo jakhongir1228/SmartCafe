@@ -66,5 +66,16 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
+    // add lib
+    debugImplementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10")
+    debugImplementation("com.squareup.picasso:picasso:2.71828")
+    debugImplementation("com.google.android.material:material:1.12.0-alpha02")
+    debugImplementation("androidx.core:core-ktx:1.12.0")
+    debugImplementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    debugImplementation("androidx.constraintlayout:constraintlayout:2.1.4")
+    debugImplementation("androidx.recyclerview:recyclerview:1.3.2")
+    debugImplementation("androidx.appcompat:appcompat:1.6.1")
+
     implementation(project(":feature:kittens"))
+    implementation(project(":feature:mvi"))
 }
